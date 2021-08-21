@@ -7,7 +7,11 @@
     <title>Chat App PHP</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        
+        var from = null; start = 0;
+        $(document).ready(function) {
+            from = prompt("Please enter your name");
+            alert("Hello " + from);
+        }
     </script>
     <!--====== CSS ======-->
     <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
